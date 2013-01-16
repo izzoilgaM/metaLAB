@@ -34,15 +34,21 @@
 				</div>	
 			</div>
 			<div id = "main">
-				<div id ="top_main">
-					<div class="video">
+					<div id="video">
+					<iframe src="http://player.vimeo.com/video/46773161?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1e00" width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 					</div>
-				</div>
+					<div id="red_bar">
+					</div>
+					<div id="description">
+					<p class ="description"> <strong> metaLAB n.</strong> an experimental research, design & development unit&mdash;dedicated to innovation in the arts, media & humanities&mdash;hosted at the <a href="http://
+					cyber.law.harvard.edu/">Berkman Center for Internet & Society</a>. </p>
+					</div>
 			</div>	
 			</div>
 			
 			<div id = "footer">
-			Project hosted by the Berkman Center for Internet and Society * Unless otherwise noted this site and its contents are licensed under a Creative Commons Attribution 3.0 Unported license.
+				Project hosted by the <a href="http://cyber.law.harvard.edu/"> Berkman Center for Internet and Society </a> *Unless otherwise noted this site and its contents are licensed under a <a href="http://creativecommons.org 
+				licenses/by/3.0/"> Creative Commons Attribution 3.0 Unported </a> license.
 			</div>
 		</div>
 	</body>

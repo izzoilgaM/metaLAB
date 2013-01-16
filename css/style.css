@@ -3,6 +3,10 @@ body{
 	background-repeat:repeat;
 }
 
+a{text-decoration: none;
+  color:#ff1e00;
+}
+
 #wrapper {
 	margin:0px auto;
 	width: 890px;
@@ -57,16 +61,42 @@ body{
 	display:inline-block;
 	text-decoration: none;
 	border-bottom:1px dotted #ff1e00;}
+
+/* To contain video, description, and entry box. Not being used at the moment*/
+#top_main {
+	width:890px;
+	height: 360px;
+	background-color: gray;}
 	
-#top_main {width:890px;
-		   height: 360px;
-		   background-color: gray;}
+#video{
+	float: left;
+	width: 640px;
+	height: 360px;
+	background-color: black;
+	color: white;
+	text-align: center;}
 	
-.video{display: inline-block;
-	   width: 640px;
-	   height: 360px;
-	   background-color: black;
+#red_bar{
+	float:left;
+	z-index: 2;
+	margin-top: 215px;
+	height:145px;
+	width: 6px;
+	background-color: #ff1e00;
 }
+
+#description{
+	float: right;
+	margin-top: 215px;
+	background-color: white;
+	border: 1px dotted #ff1e00;
+	color: black;
+	height: 143px;
+	width: 242px;}
+	
+.description{
+	padding-left: 20px;
+	padding-right: 20px;}
 
 #main {
 	position: relative;
