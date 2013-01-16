@@ -4,9 +4,7 @@
 			metaLAB (at) Harvard
 		</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"/>
-		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Arimo:regular,italic,bold,bolditalic' rel='stylesheet'
-		 type='text/css'> 
+		<link rel="shortcut icon" href="img/favicon.ico">		
 
 	</head>
 	<body>
