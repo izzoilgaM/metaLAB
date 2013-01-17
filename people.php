@@ -42,8 +42,9 @@
 						    <a href="matthew@metalab.harvard.edu"> <h3>matthew [at] metalab.harvard.edu</h3> </a>
 						    <br>
 						    <br>
-						    <p> Matthew Battles cofounded <a href="http://www.hilobrow.com/">HiLobrow</a>, an online journal of cultural criticism. He has written about the cultural dimensions of science and 							technology for such venues as <em>The American Scholar</em>, <em>The Atlantic</em>, <em>The Boston Globe</em>, <em>Harper’s Magazine</em>, and <em>The Wilson Quarterly</em>. 								Matthew has published extensively on the history and changing roles of libraries in culture; his book <em>Library: an Unquiet History</em> (Norton) is available in eight languages 							worldwide and has been in print since 2003. In addition,he wrote the official history of Harvard’s Widener library, and is a contributor to the <em>Oxford Companion to the Book</							em>. His forthcoming volume, a material and cultural history of writing entitled <em>Letter by Letter</em>, will appear in Spring 2013. With metaLAB, Matthew fosters research into 							the critical and curatorial dimensions of technology in art and culture; advances multidisciplinary, collaborative dimensions of scholarly community; and explores innovative 
-						    models for publishing.</p>
+						    <p> Matthew Battles cofounded <a href="http://www.hilobrow.com/">HiLobrow</a>, an online journal of cultural criticism. He has written about the cultural dimensions of science and 							technology for such venues as <em>The American Scholar</em>, <em>The Atlantic</em>, <em>The Boston Globe</em>, <em>Harper&#8217;s Magazine</em>, and <em>The Wilson Quarterly</em>. 							Matthew has published extensively on the history and changing roles of libraries in culture; his book <em>Library: an Unquiet History</em> (Norton) is available in eight 
+						    languages worldwide and has been in print since 2003. In addition,he wrote the official history of Harvard&#8217;s Widener library, and is a contributor to the <em>Oxford
+						    Companion to the Book</em>. His forthcoming volume, a material and cultural history of writing entitled <em>Letter by Letter</em>, will appear in Spring 2013. With metaLAB, 								Matthew fosters research into the critical and curatorial dimensions of technology in art and culture; advances multidisciplinary, collaborative dimensions of scholarly community; 							and explores innovative models for publishing.</p>
 						</div>
 					</div>
 					
@@ -55,7 +56,7 @@
 						    <a href="alex@metalab.harvard.edu"> <h3>alex [at] metalab.harvard.edu</h3> </a>
 						    <br>
 						    <br>
-						    <p> After graduating from Harvard in 2011 with a degree in computer science, Alex enjoyed a short stint as an engineer in the enterprise software industry. After coming to his 								senses nine months later, he switched gears and took a dive into Boston’s start-up scene, during which time he worked at Techstars as a developer-in-residence helping 										incubated ventures build web-based products. Alex currently serves as a resident tutor in Leverett House, one of Harvard’s twelve residential communities, where he advises 								undergraduates on computer science and careers. He is a mentor for HackHarvard and a proud member of the Sandbox Network. He is passionate about Dante Alighieri, Audrey 									Hepburn, abdominal workouts,and lolcats, and is notorious for sporting flip-flops all-year-round.</p>
+						    <p> After graduating from Harvard in 2011 with a degree in computer science, Alex enjoyed a short stint as an engineer in the enterprise software industry. After coming to his 								senses nine months later, he switched gears and took a dive into Boston&#8217;s start-up scene, during which time he worked at Techstars as a developer-in-residence helping 								incubated ventures build web-based products. Alex currently serves as a resident tutor in Leverett House, one of Harvard&#8217;s twelve residential communities, where he 									advises undergraduates on computer science and careers. He is a mentor for HackHarvard and a proud member of the Sandbox Network. He is passionate about Dante Alighieri, 									Audrey Hepburn, abdominal workouts,and lolcats, and is notorious for sporting flip-flops all-year-round.</p>
 						</div>
 					</div>
 					
@@ -67,8 +68,8 @@
 						    <a href="yanni@metalab.harvard.edu"> <h3>yanni [at] metalab.harvard.edu</h3> </a>
 						    <br>
 						    <br>
-						    <p> <a href="http://www.yloukissas.com/">Yanni Alexander Loukissas</a> is a designer and ethnographer with an interest in human-machine-environment relationships. Previously, he 								was a postdoctoral associate at the MIT Program in Science, Technology, and Society. His recent projects include a book about information technologies and professional 									identities entitled Co-Designers: Cultures of Computer Simulation in Architecture and an interactive data visualization of the Apollo 11 lunar landing, first exhibited at 									MIT’s 150th anniversary. Originally trained as an architect, he has subsequently taught architecture as well as media arts and theory at Cornell, MIT, and the School of the
-						    	Museum of Fine Arts, Boston.</p>
+						    <p> <a href="http://www.yloukissas.com/">Yanni Alexander Loukissas</a> is a designer and ethnographer with an interest in human-machine-environment relationships. Previously, he 								was a postdoctoral associate at the MIT Program in Science, Technology, and Society. His recent projects include a book about information technologies and professional 									identities entitled Co-Designers: Cultures of Computer Simulation in Architecture and an interactive data visualization of the Apollo 11 lunar landing, first exhibited at 									MIT&#8217;s 150th anniversary. Originally trained as an architect, he has subsequently taught architecture as well as media arts and theory at Cornell, MIT, and the School of 
+						    	the Museum of Fine Arts, Boston.</p>
 						</div>
 					</div>
 					
@@ -95,7 +96,7 @@
 						    <br>
 						    <p> Kyle Parry works in information and media design and earns his keep through writing, research and strategy. A researcher at metaLAB, he is also a PhD student in Film and 
 						    Visual Studies and Critical Media Practice at Harvard, working across science studies, visual and communication theory, and conceptual history. His metaLAB work centers on the 
-						    Digital Archive of Japan’s 2011 Disasters and Digital Ecologies.</p>
+						    Digital Archive of Japan&#8217;s 2011 Disasters and Digital Ecologies.</p>
 						</div>
 					</div>	
 					
