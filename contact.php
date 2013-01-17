@@ -3,8 +3,8 @@
 		<title>
 			metaLAB (at) Harvard
 		</title>
-		<link href="css/main.css" rel="stylesheet" type="text/css"/>
-		<link rel="shortcut icon" href="./img/favicon.ico">		
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link rel="shortcut icon" href="img/favicon.ico">		
 
 	</head>
 	<body>
@@ -19,10 +19,10 @@
 					<div id ="nav">
 						<ul>
 							<li> <a href="./people.php"> People </a> </li>
-							<li> <a href="/*LOCATION HERE*/"> Projects </a> </li>
-							<li> <a href="/*LOCATION HERE*/"> Partners </a> </li>
-							<li> <a href="/*LOCATION HERE*/"> Blog </a> </li>
-							<li> <a href="/*LOCATION HERE*/"> Get Involved </a> </li>
+							<li> <a href="./projects.php"> Projects </a> </li>
+							<li> <a href="./partners.php"> Partners </a> </li>
+							<li> <a href="./blog.php"> Blog </a> </li>
+							<li> <a href="./contact.php"> Get Involved </a> </li>
 							</ul>	
 					</div>
 							<li id= "social">

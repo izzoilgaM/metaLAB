@@ -1,0 +1,229 @@
+body{
+	background-image:url('../img/maze_whiter.png');
+	background-repeat:repeat;
+}
+
+a{text-decoration: none;
+  color:#ff1e00;
+}
+
+#wrapper {
+	margin:0px auto;
+	width: 890px;
+}
+
+#outer_wrapper {
+	margin:0px auto;
+	width: 1000px;
+}
+
+#header {
+	position: relative;
+	top: 0px;
+	margin-bottom: 10px;
+	height: 150px;
+	width: 890px;
+	padding: 0px;}
+	
+#moving_header {
+	position:fixed;
+	z-index: 1;
+	background-color: white;
+	top: 0px;
+	margin-bottom: 10px;
+	height: 150px;
+	width: 890px;
+	border: 1px dotted #ff1e00;
+	padding: 5px;}
+
+
+#logo{position:fixed;
+	  background-color: white;
+	  z-index: 3;}
+
+#nav {
+	position: fixed;
+	z-index: 3;
+	margin-left: 150px;
+	padding-top: 40px;
+	background-color: white;}
+	ul li {
+		display:inline-block;
+		font-size: 24px;}
+	ul li a {
+		text-decoration: none;
+		margin-right: 20px;}
+	ul li a:link {color:#ff1e00;}
+	ul li a:visited {color:#666666;}
+	ul li a:hover{color:#000000;
+	border-bottom:1px dotted #ff1e00;} 
+	
+#social{
+	position: relative;
+	z-index: 3;
+	margin-left: 700px;
+	padding-top: 56px;
+	display:inline-block;
+	text-decoration: none;
+	border-bottom:1px dotted #ff1e00;}
+	
+#video{
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 640px;
+	height: 360px;
+	text-align: center;}
+	
+#red_bar{
+	float:left;
+	z-index: 2;
+	margin-top: 220px;
+	height:145px;
+	width: 6px;
+	background-color: #ff1e00;
+}
+
+#description{
+	position: absolute;
+	float: right;
+	margin-top: 220px;
+	margin-left: 651px;
+	background-color: white;
+	border: 1px dotted #ff1e00;
+	color: black;
+	height: 143px;
+	width: 242px;}
+	
+.description{
+	padding-left: 20px;
+	padding-right: 20px;}
+
+#events{
+	 margin-top: 375px;
+	 margin-left: 5px;
+	 margin-right: 5px;
+	 background-color: gray;
+	 color: black;
+	 font-size: 18px;
+	 width: 890px;
+	 height: 20px;
+}
+
+/*Working on tag for upcoming events 
+#upcoming{
+	position: absolute;
+	margin-top: 20px;
+	background-color: #ff1e00;
+	color: white;
+	font-size: 14px;
+	padding-left: 5px;
+	width: 100px;
+	height: 20px;
+	z-index: 2;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform: rotate(-90deg);
+}
+*/
+
+#red_bar_event{
+	position: absolute;
+	display: inline-block;
+	padding-left: 0px;
+	margin-top: 15px;
+	width:5px;
+	height:285px;
+	background-color: #ff1e00;
+	z-index: 2;
+}
+
+#red_bar_event_outside{
+	position: absolute;
+	margin-top: 579px; 
+	margin-left: 30px;
+	width:25px;
+	height:283px;
+	background-color: #901b1b;
+	z-index: 2;
+}
+
+#event_box{
+	position: absolute;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left:20px;
+	width:873px;
+	height:283px;
+	border: 1px dotted #ff1e00;
+	z-index: 1;
+	background: white;}
+	
+	/*Gradient — not being used*/ 
+	
+	/* Safari 4-5, Chrome 1-9 */
+	/*background: -webkit-gradient(linear, left top, right top, from(#fff), to(#999));*/
+  
+	/* Safari 5.1, Chrome 10+ */
+	/*background: -webkit-linear-gradient(left, #fff, #999);*/
+  
+	/* Firefox 3.6+ */
+	/*background: -moz-linear-gradient(left, #fff, #999);*/
+  
+	/* IE 10 */
+	/*background: -ms-linear-gradient(left, #fff, #999);*/
+  
+	/* Opera 11.10+ */
+	/*background: -o-linear-gradient(left, #fff, #999);*/
+	
+
+
+#main {
+	position: relative;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 700px;
+	width: 900px;
+	border: 1px dotted #ff1e00;
+	padding: 0px;
+}
+	
+
+#footer {
+	position:absolute;
+	text-align: center;
+	border: 1px dotted #ff1e00;
+	background-color: white;
+	font-size: 10px;
+	width: 870px;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: auto;}
+	
+.shadow {
+   -moz-box-shadow:    inset 0 0 5px #666666;
+   -webkit-box-shadow: inset 0 0 5px #666666;
+   box-shadow:         inset 0 0 5px #666666;
+}
+
+/*The shadow1 classes are specifically for Internet Explorer compatibility. I haven't coded them in yet. */
+
+.shadow1 {
+	margin: 40px;
+	background-color: rgb(68,68,68); /* Needed for IEs */
+
+	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+}
+.shadow1 .content {
+	position: relative; /* This protects the inner element from being blurred */
+	padding: 100px;
+	background-color: #DDD;
+}
+
