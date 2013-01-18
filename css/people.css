@@ -67,7 +67,7 @@ p{font-family: sans-serif;
 
 #logo{position:fixed;
 	  background-color: white;
-	  z-index: 3;}
+	  z-index: 4;}
 
 #nav {
 	position: fixed;
@@ -87,7 +87,7 @@ p{font-family: sans-serif;
 	border-bottom:1px dotted #ff1e00;} 
 	
 #social{
-	position: relative;
+	position: fixed;
 	z-index: 3;
 	margin-left: 700px;
 	padding-top: 56px;
@@ -106,13 +106,13 @@ p{font-family: sans-serif;
 	
 
 #footer {
-	position:relative;
+	position:absolute;
 	text-align: center;
 	border: 1px dotted #ff1e00;
 	background-color: white;
 	font-size: 10px;
-	width: 1500px;
-	margin-top: 760px;
+	width: 870px;
+	margin-top: 5px;
 	margin-left: 15px;
 	margin-right: auto;}
 	
