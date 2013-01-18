@@ -9,12 +9,13 @@
 	</head>
 	<body>
 		<div id="outer_wrapper">
-			<div id = "wrapper">
-				<div id = "header">
-				<div id ="moving_header">
-					<div id="logo"> 
-					<a href="./index.php"><img src="img/mlh.gif"/></a> 
-				</div>
+			<div id="wrapper">
+				<div id="header">
+					<div id="moving_header">
+						<div id="logo"> 
+							<a href="./index.php"><img src="img/mlh.gif"/></a> 
+						</div>
+					</div>
 					<div id ="nav">
 						<ul>
 							<li> <a href="./people.php"> People </a> </li>
@@ -24,19 +25,18 @@
 							<li> <a href="./contact.php"> Get Involved </a> </li>
 							</ul>	
 					</div>
-							<li id= "social">
-								<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
-								<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>
-								<img src="img/flickr_static.png"/>
-								<a href="http://vimeo.com/metalabharvard"><img src="img/vimeo_static.png"/></a>
-							</li>
-				</div>	
+					<li id= "social">
+						<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
+						<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>
+						<img src="img/flickr_static.png"/>
+						<a href="http://vimeo.com/metalabharvard"><img src="img/vimeo_static.png"/></a>
+					</li>
 				</div>
-				<div id = "main">
+				<div id="main">
 				
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/matthew.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/matthew.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Matthew Battles </h1>
 							<h2> Principal, Senior Researcher</h2>
 						    <a href="mailto:matthew@metalab.harvard.edu"> <h3>matthew [at] metalab.harvard.edu</h3> </a>
@@ -49,8 +49,8 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/alex.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/alex.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Alex Hugon </h1>
 							<h2> Creative Technologist</h2>
 						    <a href="mailto:alex@metalab.harvard.edu"> <h3>alex [at] metalab.harvard.edu</h3> </a>
@@ -61,8 +61,8 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/yanni.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/yanni.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Yanni Loukissas </h1>
 							<h2> Principal, Senior Researcher</h2>
 						    <a href="mailto:yanni@metalab.harvard.edu"> <h3>yanni [at] metalab.harvard.edu</h3> </a>
@@ -74,8 +74,8 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/cristoforo.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/cristoforo.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Cristoforo Magliozzi </h1>
 							<h2> Creative Technologist</h2>
 						    <a href="mailto:cristoforo@metalab.harvard.edu"> <h3>cristoforo [at] metalab.harvard.edu</h3> </a>
@@ -87,8 +87,8 @@
 					</div>		
 					
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/kyle.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/kyle.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Kyle Parry </h1>
 							<h2> Principal, Researcher</h2>
 						    <a href="mailto:kyle@metalab.harvard.edu"> <h3>kyle [at] metalab.harvard.edu</h3> </a>
@@ -101,8 +101,8 @@
 					</div>	
 					
 					<div class="bio_wrapper">
-						<div> <img class="bio_pic" src="./img/people/jeffrey.jpeg"/>
-						<div class = "bio shadow">
+						<div class="bio-pic"><img class="bio_pic" src="./img/people/jeffrey.jpeg"/></div>
+						<div class="bio shadow">
 							<h1> Jeffrey Schnapp </h1>
 							<h2> Principal, Faculty Director</h2>
 						    <a href="mailto:jeffrey@metalab.harvard.edu"> <h3>jeffrey [at] metalab.harvard.edu</h3> </a>
@@ -115,9 +115,10 @@
 				</div>
 		
 			
-				<div id = "footer">
+				<div id="footer">
 					Project hosted by the <a href="http://cyber.law.harvard.edu/"> Berkman Center for Internet and Society </a> *Unless otherwise noted this site and its contents 						are licensed under a <a href="http://creativecommons.org licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> license.
 				</div>
+			</div>
 		</div>
 	</div>
 	</body>
