@@ -7,37 +7,23 @@ a{text-decoration: none;
   color:#ff1e00;
 }
 
-#wrapper {
-	margin:0px auto;
-	width: 890px;
-}
-
 #outer_wrapper {
 	margin:0px auto;
 	width: 1000px;
 }
 
 #header {
+	z-index: 3;
 	position: fixed;
+	width:938px;
 	background-color: white;
 	padding: 10px 0px 10px 0px;
 	border: 1px dotted #ff1e00;}
 	
 #header img {
-	margin-left: -10px;
+	margin-left: 10px;
 }
 	
-#moving_header {
-	position:fixed;
-	z-index: 1;
-	background-color: white;
-	top: 0px;
-	margin-bottom: 10px;
-	height: 150px;
-	width: 890px;
-	border: 1px dotted #ff1e00;
-	padding: 5px;}
-
 
 #nav{
 	z-index: 3;
@@ -69,6 +55,11 @@ a{text-decoration: none;
 	margin-left: 0px;
 }	
 	
+#content{
+	padding: 5px;
+	margin-top: 170px;
+	border: 1px dotted #ff1e00;
+}
 	
 #signup{
 	position:absolute; 
@@ -80,17 +71,10 @@ a{text-decoration: none;
 	}
 	
 #video{
-	position: relative;
-	float: left;
-	padding-top: 5px;
-	padding-left: 5px;
 	width: 640px;
-	height: 360px;
-	text-align: center;}
+	height: 360px;}
 	
 #red_bar{
-	float:left;
-	z-index: 2;
 	margin-top: 220px;
 	height:145px;
 	width: 6px;
@@ -98,10 +82,7 @@ a{text-decoration: none;
 }
 
 #description{
-	position: absolute;
-	float: right;
 	margin-top: 220px;
-	margin-left: 651px;
 	background-color: white;
 	border: 1px dotted #ff1e00;
 	color: black;
