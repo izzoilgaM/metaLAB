@@ -4,6 +4,7 @@
 			metaLAB (at) Harvard
 		</title>
 		<link href="css/people.css" rel="stylesheet" type="text/css"/>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 		<link rel="shortcut icon" href="img/favicon.ico">		
 
 	</head>

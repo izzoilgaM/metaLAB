@@ -18,12 +18,14 @@ a{text-decoration: none;
 }
 
 #header {
-	position: relative;
-	top: 0px;
-	margin-bottom: 10px;
-	height: 150px;
-	width: 890px;
-	padding: 0px;}
+	position: fixed;
+	background-color: white;
+	padding: 10px 0px 10px 0px;
+	border: 1px dotted #ff1e00;}
+	
+#header img {
+	margin-left: -10px;
+}
 	
 #moving_header {
 	position:fixed;
@@ -37,19 +39,14 @@ a{text-decoration: none;
 	padding: 5px;}
 
 
-#logo{position:fixed;
-	  background-color: white;
-	  z-index: 3;}
-
-#nav {
-	position: fixed;
+#nav{
 	z-index: 3;
-	margin-left: 150px;
-	padding-top: 40px;
+	padding-top: 41px;
 	background-color: white;}
+	
 	ul li {
 		display:inline-block;
-		font-size: 24px;}
+		font-size: 22px;}
 	ul li a {
 		text-decoration: none;
 		margin-right: 20px;}
@@ -59,15 +56,31 @@ a{text-decoration: none;
 	border-bottom:1px dotted #ff1e00;} 
 	
 #social{
-	position: relative;
 	z-index: 3;
-	margin-left: 700px;
+	margin-right: 10px;
 	padding-top: 56px;
+	padding-bottom: 5px;
+	width: 175px;
 	display:inline-block;
-	text-decoration: none;
-	border-bottom:1px dotted #ff1e00;}
+	text-decoration: none;}
+	
+#header #social img
+{
+	margin-left: 0px;
+}	
+	
+	
+#signup{
+	position:absolute; 
+	right: 10px;
+	top: 10px;
+	color:gray;
+	height:215px; 
+	width:248px;
+	}
 	
 #video{
+	position: relative;
 	float: left;
 	padding-top: 5px;
 	padding-left: 5px;
