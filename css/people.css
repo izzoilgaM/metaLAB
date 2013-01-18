@@ -67,14 +67,13 @@ p{font-family: sans-serif;
 
 #logo{position:fixed;
 	  background-color: white;
-	  z-index: 4;}
+	  z-index: 3;}
 
 #nav {
 	position: fixed;
 	z-index: 3;
 	margin-left: 150px;
-	padding-top: 40px;
-	background-color: white;}
+	padding-top: 40px;}
 	ul li {
 		display:inline-block;
 		font-size: 24px;}
