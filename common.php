@@ -1,7 +1,7 @@
-define("DB_USER","your_database_username_here");
-define("DB_PASS","your_database_user's_password_here");
-define("DB_HOST","your_database_ip_address_or_url_here");
-define("DB_NAME","your_database_name_here");
+define("DB_USER","app10967255");
+define("DB_PASS","oeLd07.it");
+define("DB_HOST","instance36844.db.xeround.com:5099");
+define("DB_NAME","metaLABsignups");
 
 $link = mysql_connect(DB_HOST, DB_USER, DB_PASS) or die('Could not connect to mysql server.');
 mysql_select_db(DB_NAME);
