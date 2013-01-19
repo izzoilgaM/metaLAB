@@ -35,16 +35,21 @@
 				</div>
 			</div>
 			<div id="content">
+			<!--divider-->
+				<div class="row">
+					<div class="span12 divider">
+					</div>
+				</div>
 			<!--video, sign-up box, & description-->
 				<div class="row"> 
 					<div class="span12" style="position:relative">
-						<div style="padding:5px 0px 5px 5px" class="shadow">
-							<iframe src="http://player.vimeo.com/video/46773161?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1e00" width="640" height="360" frameborder="0" 	
-							webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+						<div class="video shadow">
+							<iframe style="border: 1px solid #cecece"src="http://player.vimeo.com/video/46773161?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1e00" width="640" 
+							height="360" frameborder="0"webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 						</div>
-						<div id="red_bar"></div>
-						<div id="signup">
-							<h3> Keep a tab on metaLAB </h3>
+						<div id="signup" class="shadow">
+							<img src="img/mail.png"/>
+							<h3> Follow metaLAB </h3>
 							<input type="text" placeholder="Your E-mail Address" id="emailonly" class="shadow gradient">
 							<a id="emailonly-btn" class="btn"> <p>Go</p> </a>
 						</div>
@@ -58,13 +63,15 @@
 				</div>	
 			<!--divider-->
 				<div class="row">
-					<div class="span12" id="divider">
+					<div class="span12 divider">
 					</div>
 				</div>
 			<!--events-->
 				<div class="row">
-					<div class="span12">
+					<div class="span12" style="position:relative">
 						<div id="events" class="shadow">
+						<img class="shadow_right" src="img/events/upcoming.png"/>
+						<div id="ribbon"></div>
 						</div>
 					</div>
 				</div>

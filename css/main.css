@@ -1,6 +1,6 @@
 #emailonly{
 	position: absolute;
-	top: 42px;
+	top: 48px;
 	right: 43px;
 	padding: 5px;
 	font-family: Domine;
@@ -13,7 +13,7 @@
 #emailonly-btn{
 	position: absolute;
 	display: table-cell;
-	top: 42px;
+	top: 48px;
 	right: 8px;
 }
 
@@ -123,33 +123,40 @@ a{text-decoration: none;
 #signup{
 	position: absolute;
 	background-color: white;
-	border: 1px solid #666666;
-	top: 5px;
-	right: 18px;
+	border: 1px solid #cecece;
+	top: 17px;
+	right: 16px;
 	padding: 0px;
-	height:80px; 
+	height:92px; 
 	width: 260px;
 	}
 	
 #signup h3{
 	font-family: Domine;
+	font-size: 19px;
+	color: #666666;
 	position: absolute;
-	top: -8px;
+	top: 5px;
+	right: 45px;
+}
+
+#signup img{
+	position: absolute;
 	left: 10px;
+	top:9px;
 }
 	
-#video{
-	position: absolute;
-	left:0px;
-	width: 640px;
-	height: 360px;}
+.video{
+	padding:15px 0px 15px 15px;
+	border: 1px solid #cecece;
+	}
 	
 #red_bar{
 	position: absolute;
-	right: 290px;
-	margin-top: -266px;
+	right: 284px;
+	bottom:16px;
 	height:261px;
-	width: 5px;
+	width: 10px;
 	background-color: #ff1e00;
 }
 
@@ -166,20 +173,19 @@ a{text-decoration: none;
 	font-family: Domine;
 	font-size: 14px;
 	position: absolute;
-	right:18px;
-	bottom:5px; 
-	margin-top: -250px;
+	right:16px;
+	bottom:17px; 
 	background-color: white;
 	border: 1px dotted #666666;
 	color: #666;
-	height: 260px;
+	height: 258px;
 	width: 260px;}
 	
 .description{
 	padding-left: 20px;
 	padding-right: 20px;}
 
-#divider{
+.divider{
 	 background-color: gray;
 	 height: 20px;
 }
@@ -203,70 +209,40 @@ a{text-decoration: none;
 */
 
 #events{
-	height:300px;
-	background-color: white;
+	height:320px;
+	background-color: #999;
+	line-height: 80px;
 }
 
-#red_bar_event{
+#ribbon{
 	position: absolute;
-	display: inline-block;
-	padding-left: 0px;
-	margin-top: 15px;
-	width:5px;
-	height:285px;
-	background-color: #ff1e00;
-	z-index: 2;
-}
-
-#red_bar_event_outside{
-	position: absolute;
-	margin-top: 579px; 
-	margin-left: 30px;
-	width:25px;
-	height:283px;
-	background-color: #901b1b;
-	z-index: 2;
-}
-
-#event_box{
-	position: absolute;
-	display: inline-block;
-	margin-top: 15px;
-	margin-left:20px;
-	width:873px;
-	height:283px;
-	border: 1px dotted #ff1e00;
-	z-index: 1;
-	background: white;}
-	
-	/*Gradient — not being used*/ 
-	
-	/* Safari 4-5, Chrome 1-9 */
-	/*background: -webkit-gradient(linear, left top, right top, from(#fff), to(#999));*/
-  
-	/* Safari 5.1, Chrome 10+ */
-	/*background: -webkit-linear-gradient(left, #fff, #999);*/
-  
-	/* Firefox 3.6+ */
-	/*background: -moz-linear-gradient(left, #fff, #999);*/
-  
-	/* IE 10 */
-	/*background: -ms-linear-gradient(left, #fff, #999);*/
-  
-	/* Opera 11.10+ */
-	/*background: -o-linear-gradient(left, #fff, #999);*/
-
+	background-color:maroon;
+	margin-top: -200px;
+	margin-left: 300px;
+	height: 80px;
+	width: 640px;
+	text-align: center;
+	color:white;
+	font-family: Domine;
+	display: table-cell;
+	vertical-align: middle;}
 
 #footer {
 	position:absolute;
 	text-align: center;
-	border: 1px dotted #ff1e00;
+	border: 1px dotted #cecece;
 	background-color: white;
 	font-size: 10px;
 	width: 870px;
 	margin-top: 5px;
+	margin-right: auto;
 	margin-left: 15px;
-	margin-right: auto;}
+	}
+	
+.shadow_right{
+	-webkit-box-shadow:  5px 0px 20px 0px #cecece;
+    box-shadow:  5px 0px 20px 0px #cecece;
+}
 	
 .shadow {
    -moz-box-shadow:    inset 0 0 5px #666666;
