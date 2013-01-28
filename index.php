@@ -63,8 +63,6 @@
 				<div class="row">
 					<div class="span12" style="position:relative">
 						<div id="events" class="shadow">
-						<img class="shadow_right" src="img/events/upcoming.png"/>
-						<div id="ribbon">There are no scheduled events at this time.</div>
 						</div>
 					</div>
 				</div>
