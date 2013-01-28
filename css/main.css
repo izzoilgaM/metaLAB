@@ -17,6 +17,22 @@
 	right: 8px;
 }
 
+#emailonly-msg{
+	position: absolute;
+	top:109px;
+	right:16px;
+	font-family: Domine;
+	color: #666;
+	text-align: center;
+	width: 260px;
+	height: 50px;
+}
+
+
+.black{
+	color: #000000;
+}
+
 .btn{
 	background-color: #666;
 	height: 30px;
@@ -52,7 +68,7 @@ a.btn:active{
 
 
 body{
-	background-image:url('../img/maze_whiter.png');
+	background-image:url('../img/noisy_grid_dark.png');
 	background-repeat:repeat;
 }
 
@@ -60,29 +76,22 @@ a{text-decoration: none;
   color:#ff1e00;
 }
 
-
-
-#outer_wrapper {
-	margin:0px auto;
-	width: 1000px;
-}
-
 #header {
 	z-index: 3;
 	position: fixed;
-	width:938px;
-	background-color: #eeeeee;
-	border: 1px solid #cecece;
-	padding: 10px 0px 10px 0px;}
+	margin-top: 0px;
+	width:1022px;
+	background-image:url('../img/shattered.png');
+	padding: 0px 0px 0px 0px;}
 	
 #header img {
-	margin-left: 10px;
+	margin-left: 0px;
 }
-	
+
 
 #nav{
 	z-index: 3;
-	padding-top: 41px;}
+	padding-top:  0px;}
 	
 	ul li {
 		display:inline-block;
@@ -90,11 +99,11 @@ a{text-decoration: none;
 		font-family: Domine;}
 	ul li a {
 		text-decoration: none;
-		margin-right: 20px;}
+		margin-right: 16px;}
 	ul li a:link {color:#666666;}
 	ul li a:visited {color:#ff1e00;}
 	ul li a:hover{color:#ff1e00;
-	border-bottom:1px dotted #666666;
+	text-decoration: none;
 	-moz-transition: all 400ms ease-out;
 	-webkit-transition: all 400ms ease-out;
 	-ms-transition: all 400ms ease-out;
@@ -102,10 +111,10 @@ a{text-decoration: none;
 	
 #social{
 	z-index: 3;
-	margin-right: 10px;
-	padding-top: 54px;
+	padding-top: 12px;
 	padding-bottom: 5px;
-	width: 175px;
+	padding-left: 80px;
+	width: 145px;
 	display:inline-block;
 	text-decoration: none;}
 	
@@ -115,9 +124,9 @@ a{text-decoration: none;
 }	
 	
 #content{
-	width:938px;
+	width:1020px;
 	padding: 0px;
-	margin-top: 170px;
+	margin-top: 49px;
 }
 	
 #signup{
@@ -149,7 +158,8 @@ a{text-decoration: none;
 .video{
 	padding:15px 0px 15px 15px;
 	border: 1px solid #cecece;
-	}
+	background-image: url('../img/noisy_grid.png');
+		}
 	
 #red_bar{
 	position: absolute;
@@ -174,19 +184,18 @@ a{text-decoration: none;
 	font-size: 14px;
 	position: absolute;
 	right:16px;
-	bottom:17px; 
-	background-color: white;
-	border: 1px dotted #666666;
+	top:17px; 
+	background-image:url('../img/grid.png');
 	color: #666;
-	height: 258px;
-	width: 260px;}
+	height: 360px;
+	width: 331px;}
 	
 .description{
 	padding-left: 20px;
 	padding-right: 20px;}
 
 .divider{
-	 background-color: gray;
+	 background-image:url('../img/shattered.png');
 	 height: 20px;
 }
 
@@ -209,9 +218,8 @@ a{text-decoration: none;
 */
 
 #events{
-	height:320px;
-	background-color: #999;
-	line-height: 80px;
+	height:200px;
+	background-image:url('../img/shattered.png');
 }
 
 #ribbon{
@@ -230,12 +238,12 @@ a{text-decoration: none;
 #footer {
 	position:absolute;
 	text-align: center;
-	border: 1px dotted #cecece;
-	background-color: white;
+	border: 1px solid #cecece;
+	background-image:url('../img/shattered.png');
 	font-size: 10px;
-	width: 870px;
+	width: 990px;
 	margin-top: 5px;
-	margin-right: auto;
+	margin-right: 15px;
 	margin-left: 15px;
 	}
 	
@@ -271,12 +279,12 @@ a{text-decoration: none;
 }
 
 .dropshadow{
-	-webkit-box-shadow:  0px 0px 1000px 1px #cecece;
-    box-shadow:  0px 0px 1000px 1px #cecece;
+	-webkit-box-shadow:  0px 0px 1000px 1px #666666;
+    box-shadow:  0px 0px 1000px 1px #666666;
 }
 
 .gradient{
-	background: rgb(238,238,238); /* Old browsers */
+background: rgb(238,238,238); /* Old browsers */
 background: -moz-linear-gradient(-45deg,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(-45deg,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
