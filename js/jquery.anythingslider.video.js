@@ -1,5 +1,5 @@
 ﻿/*
- * AnythingSlider Video Controller 1.3 beta for AnythingSlider v1.6+
+ * AnythingSlider Video Controller 1.3.1 beta for AnythingSlider v1.6+
  * By Rob Garrison (aka Mottie & Fudgey)
  * Dual licensed under the MIT and GPL licenses.
  */
@@ -22,7 +22,7 @@
 			video.options = $.extend({}, defaults, options);
 
 			// check if SWFObject is loaded
-			video.hasSwfo = (typeof(swfobject) !== 'undefined' && swfobject.hasOwnProperty('embedSWF') && typeof(swfobject.embedSWF) === 'function') ? true : false;
+			video.hasSwfo = (typeof(swfobject) !== 'undefined' && swfobject.hasOwnProperty('embedSWF') && typeof(swfobject.embedSWF) === 'function' && swfobject.hasFlashPlayerVersion('1'));
 
 			video.list = {};
 			video.hasVid = false;

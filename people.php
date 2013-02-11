@@ -1,42 +1,21 @@
+<!DOCTYPE HTML>
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<head>
 		<title>
 			metaLAB (at) Harvard
 		</title>
-		<link href="css/people.css" rel="stylesheet" type="text/css"/>
+		<link href="css/main.css" rel="stylesheet" type="text/css"/>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 		<link rel="shortcut icon" href="img/favicon.ico">		
 
 	</head>
 	<body>
-		<div id="outer_wrapper">
-			<div id="wrapper">
-				<div id="header">
-					<div id="moving_header">
-						<div id="logo"> 
-							<a href="./index.php"><img src="img/mlh.gif"/></a> 
-						</div>
-					</div>
-					<div id ="nav">
-						<ul>
-							<li> <a href="./people.php"> People </a> </li>
-							<li> <a href="./projects.php"> Projects </a> </li>
-							<li> <a href="./partners.php"> Partners </a> </li>
-							<li> <a href="./blog.php"> Blog </a> </li>
-							<li> <a href="./contact.php"> Get Involved </a> </li>
-							</ul>	
-					</div>
-					<li id= "social">
-						<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
-						<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>
-						<img src="img/flickr_static.png"/>
-						<a href="http://vimeo.com/metalabharvard"><img src="img/vimeo_static.png"/></a>
-					</li>
-				</div>
-				<div id="main">
-				
-					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/matthew.jpeg"/></div>
+		<div class="container">
+			<?php require ('header.php');?>
+							
+					<div class="bio_wrapper" style="margin-top:151px;">
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:40px;" src="./img/people/matthew.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Matthew Battles </h1>
 							<h2> Principal, Senior Researcher</h2>
@@ -50,7 +29,7 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/alex.jpeg"/></div>
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:90px;" src="./img/people/alex.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Alex Hugon </h1>
 							<h2> Creative Technologist</h2>
@@ -62,7 +41,7 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/yanni.jpeg"/></div>
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:65px;" src="./img/people/yanni.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Yanni Loukissas </h1>
 							<h2> Principal, Senior Researcher</h2>
@@ -75,7 +54,7 @@
 					</div>
 					
 					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/cristoforo.jpeg"/></div>
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:50px;"src="./img/people/cristoforo.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Cristoforo Magliozzi </h1>
 							<h2> Creative Technologist</h2>
@@ -88,7 +67,7 @@
 					</div>		
 					
 					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/kyle.jpeg"/></div>
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:25px;" src="./img/people/kyle.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Kyle Parry </h1>
 							<h2> Principal, Researcher</h2>
@@ -102,7 +81,7 @@
 					</div>	
 					
 					<div class="bio_wrapper">
-						<div class="bio-pic"><img class="bio_pic" src="./img/people/jeffrey.jpeg"/></div>
+						<div class="bio-pic"><img class="bio_pic" style="margin-top:15px;"src="./img/people/jeffrey.jpeg"/></div>
 						<div class="bio shadow">
 							<h1> Jeffrey Schnapp </h1>
 							<h2> Principal, Faculty Director</h2>
@@ -113,14 +92,10 @@
 						    group/shl/cgi-bin/drupal/">Stanford Humanities Lab</a> in 2000. A cultural historian with research interests extending from antiquity to the present, his most recent books are 							<em>The Electric Information Age Book</em>, <em>Modernitalia</em>, and <em>Digital_Humanities</em>.</p>
 						</div>
 					</div>				
-				</div>
 		
 			
-				<div id="footer">
-					Project hosted by the <a href="http://cyber.law.harvard.edu/"> Berkman Center for Internet and Society </a> *Unless otherwise noted this site and its contents 						are licensed under a <a href="http://creativecommons.org licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> license.
-				</div>
+		<?php require ('footer.php');?>
 			</div>
-		</div>
-	</div>
+
 	</body>
 </html>

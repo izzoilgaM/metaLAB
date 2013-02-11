@@ -69,6 +69,7 @@ a:focus {
 a:hover,
 a:active {
   outline: 0;
+  color:#666;
 }
 sub,
 sup {
@@ -218,7 +219,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff1e00;
+  color: #666;
   text-decoration: none;
 }
 .img-rounded {

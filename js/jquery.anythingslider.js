@@ -1,5 +1,5 @@
 /*!
-	AnythingSlider v1.8.15
+	AnythingSlider v1.8.17
 	Original by Chris Coyier: http://css-tricks.com
 	Get the latest version: https://github.com/CSS-Tricks/AnythingSlider
 
@@ -49,7 +49,6 @@
 			base.$win = $(win);
 
 			base.$controls = $('<div class="anythingControls"></div>');
-			base.$nav = $('<ul class="thumbNav"><li><a><span></span></a></li></ul>');
 			base.$startStop = $('<a href="#" class="start-stop"></a>');
 			
 			if (o.buildStartStop || o.buildNavigation) {
