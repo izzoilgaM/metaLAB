@@ -100,7 +100,7 @@
 			
 			<div class="carousel_item">
 				<div class="image">
-					<img class="shadow" src="img/people/Kyle1.jpeg" alt="Kyle Parry"/>
+					<img class="shadow" src="img/people/kyle.jpeg" alt="Kyle Parry"/>
 				</div>
 				<div class="caption">
 					<h2>Kyle Parry </h2>
@@ -114,7 +114,7 @@
 			
 			<div class="carousel_item">
 				<div class="image">
-					<img class="shadow" src="img/people/Jeffrey1.jpeg" alt="Jeffrey Schnapp"/>
+					<img class="shadow" src="img/people/jeffrey.jpeg" alt="Jeffrey Schnapp"/>
 				</div>
 				<div class="caption">
 					<h2>Jeffrey Schnapp</h2>
