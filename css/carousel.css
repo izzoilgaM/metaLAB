@@ -1,0 +1,99 @@
+.my_carousel{
+ position:relative;
+ width: 760px;
+ margin: 130px auto 20px auto;
+}
+
+.carousel_container{
+ height: 400px;
+ margin: 0px;
+}
+
+.caption_container{
+	width: 820px;
+	margin: -470px 0px 0px -50px;
+	padding: 10px 0px 0px 20px;
+}
+
+.description{
+	width: 600px;
+	margin: 0px 0px 0px 0px;
+	padding: 450px 0px 0px 20px;
+	border-left: none; 
+}
+
+.carousel_data{display: none;
+	
+}
+
+#carousel{
+	margin: 0px auto 0px auto;
+	width: 600px;
+	height: 300px;
+}
+
+#carousel img{
+	width:300px;
+	height:225px;
+	cursor: pointer;
+	background-image: url('../img/noisy_grid.png');
+	border: 6px solid #333; 
+}
+
+#captions{}
+
+.nextItem{
+	position:absolute;
+	top:160px;
+	left:-60px;
+	z-index:1001;
+	cursor:pointer;
+}
+
+.prevItem{
+	position: absolute;
+	top:160px;
+	right:-60px;
+	z-index: 1002;
+	cursor:pointer;
+}
+
+#captions h2{
+	font-family: Domine;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: -20px 0px 0px 0px;
+	padding: 10px 0px 0px 10px;
+	color: #ffffff;
+	border-left: 6px solid red; 
+}
+
+#captions h1{
+	font-family: Domine;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin: 0px 0px 5px 0px;
+	padding: 10px 0px 0px 10px;
+	color: #ffffff;
+	border-left: 6px solid red; 
+}
+
+#captions p{
+	font-family: Domine;
+	font-size: 14px;
+	text-align: justify;
+	color: #ffffff;
+	margin: 380px 0px -10px 4px;
+	padding-top: 5px;
+}
+
+#go_button{
+	margin-left:380px;
+	text-align: center;
+	}
+	
+#go_button:hover{
+	
+}

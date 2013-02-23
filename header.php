@@ -6,14 +6,15 @@
 					</div>
 					<div id ="sub_header">
 						<div class="span7">
+							<ul>
 							<ul id="nav">
-								<li> <a href="./people.php"> People </a> </li>
-								<li> <a href="./projects.php"> Projects </a> </li>
-								<li> <a href="./blog.php"> Blog </a> </li>
-								<li> <a href="./community.php"> Community </a> </li>
-								<li> <a href="contact.php"> Contact </a> </li>
+								<li> <a href="people.php"> people </a> </li>
+								<li> <a href="projects.php"> projects </a> </li>
+								<li> <a href="community.php"> community </a> </li>
+								<li> <a href="contact.php"> contact </a> </li>
+								<li> <a href="blog.php"> blog </a> </li>
 							</ul>	
-						</div>
+					</div>
 						<li class="span3" id= "social">
 							<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
 							<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>

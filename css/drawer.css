@@ -1,0 +1,42 @@
+
+/*
+p{margin:0px;}
+
+a{color:#ff1e00;}
+
+a:hover{color:#ffffff;}
+
+#descriptions{}
+
+.drawer_container{
+	margin:20px 0px 0px 20px;
+	padding: 0px 0px 5px 0px;
+	width: 940px;
+}
+
+.drawer{
+	margin:0px 15px 35px 15px;
+	padding: 35px 25px 25px 70px;
+	position: relative;
+}
+
+.drawer_before{
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+	display: inline-block;
+}
+
+.drawer_after_container{
+	height: 0px;
+	overflow: hidden;
+	padding:0px;
+	color: #fff;
+}
+
+.drawer_after{
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-weight: normal;
+}
+*/

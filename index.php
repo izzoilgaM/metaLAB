@@ -4,17 +4,49 @@
 	<head>
 		<title>
 			metaLAB (at) Harvard
-		</title>
+		</title>	
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
-		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
 		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.roundabout.min.js"></script>
+		<script type="text/javascript" src="js/carousel.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="./img/favicon.ico">		
 	</head>
 	<body>
 		<div class="container">
 
-	<?php require ('header.php');?>
+
+<div id="header">
+			<!--navigation bar-->
+				<div class="row">
+					<div class="span2 shadowred" id="logo">
+							<a href="./index.php"></a>
+					</div>
+					<div id ="sub_header">
+						<div class="span7">
+							<ul>
+							<ul id="nav">
+								<li> <a href="people.php"> people </a> </li>
+								<li> <a href="projects.php"> projects </a> </li>
+								<li> <a href="community.php"> community </a> </li>
+								<li> <a href="contact.php"> contact </a> </li>
+								<li> <a href="blog.php"> blog </a> </li>
+							</ul>	
+					</div>
+						<li class="span3" id= "social">
+							<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
+							<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>
+							<a href="comingsoon"><img src="img/flickr_static.png"/>
+							<a href="http://vimeo.com/metalabharvard"><img src="img/vimeo_static.png"/></a>
+							<a href="comingsoon"><img src="img/mail_social.png"/></a>
+	
+						</li>
+					</div>
+				</div>
+			</div>
+			
+			<div class="projects innershadow">
 		
 			<div id="content">
 				<!--video, sign-up box, & description-->
@@ -25,15 +57,16 @@
 							title=0&amp;byline=0&amp;portrait=0&amp;color=ff1e00" width="640" 
 							height="360" frameborder="0"webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 						</div>
-						<div id="description" class="shadow">
+					</div>
+					<div class="span3.5">
+					
+					<div id="description" class="shadow">
 								<p class ="description"> <strong class="black"> metaLAB </strong> \mit&#601;-l&aelig;b\ <em>n.</em> <br>(1) an experimental research, design & 
 								development unit dedicated 
 								to innovation in the arts, media & humanities&mdash;hosted at the <a href="http://cyber.law.harvard.edu/">Berkman Center for Internet & Society</a> 
-								<br><br>(2) a community dedicated to exploring networked culture, curatorial experiments, the future of knowledge creation, and transformative uses of
-								technology in the classroom.  </p>
 						</div>
-					</div>
-					<div class="span3.5">
+					
+					<!--Events
 						<div id="upcoming">
 						<img class="shadow" src="./img/upcoming.jpg"/>
 						<img class="eventpic" src="./img/arboretum.jpg"/>
@@ -41,24 +74,35 @@
 						<h2> February 18 <br> 2:30 PM </h2>
 						<h2> Arnold Arboretum </h2>
 						<img class="eventpic" style="opacity:0.4"; src="./img/arboretum.jpg"/>
-						
+					-->
 						
 						</div>
 					</div>
 				</div>
+				<!--
 				<div class="row">
-					<div class="span12" style="position:relative">
-						<!--Box to left of description
+					<div class="span12">
+						Box to left of description
 						<div id="des_illus" class="shadow">
 						</div>
-						-->
-											</div>
+					
+					</div>
 				</div>
+			
+				<div class="row">
+					<div class="span12">
+					<iframe id="contentiframe" class="shadow"></iframe>
+					</div>
+				</div>
+					-->
 			</div>	
+			
+				<?php require ('footer.php');?>
+			</div>
 		
-	<?php require ('footer.php');?>
+
 	
-		</div>
 	</body>
 
 </html>
+	
