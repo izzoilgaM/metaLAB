@@ -40,11 +40,9 @@
 				<div class="caption">
 					<h2>Teaching with Things</h2>
 					<h1>Going beyond photos in representing objects</h1>
-					<p> Teaching with Things leverages Harvard’s unique archival, library, and museum collections in the pursuit of a flexible, scalable approach to representing the 
-					material and sensory attributes of three dimensional objects, to building “artifactual interfaces,” to annotating three-dimensional objects, and to exploring 
-					relationships among objects and multimedia data sets. Funded by the Hauser Initiative for Learning and Teaching, the project supports and promotes collections-based
-					teaching, research and training with categories of objects that are rarely if ever accessible. The technologies involved include photogrammetry, 3D scanning, 
-					multimedia annotation and presentation tools, as well as the construction of hardware for the rapid scanning and animate gif generation.<br><br>
+					<p><a id="go_button" href="exp_twt.php"><img src="img/projects/go.png"/><br><br></a>Teaching with Things leverages Harvard’s 
+					unique archival, library, and museum collections in the pursuit of a flexible, scalable approach to representing the material and sensory attributes of three 						dimensional objects, to building “artifactual interfaces,” to annotating three-dimensional objects, and to exploring relationships among objects and multimedia 					data sets. Funded by the Hauser Initiative for Learning and Teaching, the project supports and promotes collections-based teaching, research and training with 						categories of objects that are rarely if ever accessible. The technologies involved include photogrammetry, 3D scanning, multimedia annotation and presentation 
+					tools, as well as the construction of hardware for the rapid scanning and animate gif generation.<br><br>
 
 					A number of courses are being supported and employed for user-testing by Teaching with Things over the course of the 2012-2013 academic year. These include Romance 					Studies 220, Fragments of a Material History of Literature, being taught by Jeffrey Schnapp and Matthew Battles this fall.</p>
 				</div>

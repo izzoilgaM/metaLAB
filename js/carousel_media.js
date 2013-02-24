@@ -19,9 +19,9 @@ function createCarousel(){
 	$('div#carousel').roundabout({
 		childSelector: 'img', 
 		startingChild: window.startingItem, 
-		tilt: -3.5, 
+		tilt: .1, 
 		minOpacity: 1,
-		minScale:.45,
+		minScale:.1,
 		duration:1200,
 		clickToFocus: true,
 		clickToFocusCallback: showCaption, 

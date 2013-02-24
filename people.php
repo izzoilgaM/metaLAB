@@ -10,7 +10,8 @@
 		<link href="css/carousel_people.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.roundabout.min.js"></script>
-		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/carousel_people.js"></script>
+		<!--<script type="text/javascript" src="js/current.js"></script>-->
 		<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="./img/favicon.ico">		
 	</head>
