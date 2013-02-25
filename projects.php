@@ -12,7 +12,7 @@
 		<script type="text/javascript" src="js/jquery.roundabout.min.js"></script>
 		<script type="text/javascript" src="js/carousel.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
-		<link rel="shortcut icon" href="./img/favicon.ico">		
+		<link rel="shortcut icon" href="./img/favicon.ico">				
 	</head>
 	<body>
 		<div class="container">
@@ -20,13 +20,11 @@
 <?php require ('header.php');?>
 			
 <div class="projects innershadow">
-
-
 	<div class="my_carousel">
 		<div class="carousel_container">
 			<div id="carousel"></div>
-			<img src="img/left_bw.png" class="nextItem"/>
-			<img src="img/right_bw.png" class="prevItem"/>
+			<img src="img/right_bw.png" class="nextItem"/>
+			<img src="img/left_bw.png" class="prevItem"/>
 		</div>
 		<div class="caption_container">
 			<div id="captions"></div>
@@ -40,7 +38,10 @@
 				<div class="caption">
 					<h2>Teaching with Things</h2>
 					<h1>Going beyond photos in representing objects</h1>
-					<p><a id="go_button" href="exp_twt.php"><img src="img/projects/go.png"/><br><br></a>Teaching with Things leverages Harvard’s 
+					<p><a id="go_button" href="exp_twt.php"></a>
+					<br>
+					
+					Teaching with Things leverages Harvard’s 
 					unique archival, library, and museum collections in the pursuit of a flexible, scalable approach to representing the material and sensory attributes of three 						dimensional objects, to building “artifactual interfaces,” to annotating three-dimensional objects, and to exploring relationships among objects and multimedia 					data sets. Funded by the Hauser Initiative for Learning and Teaching, the project supports and promotes collections-based teaching, research and training with 						categories of objects that are rarely if ever accessible. The technologies involved include photogrammetry, 3D scanning, multimedia annotation and presentation 
 					tools, as well as the construction of hardware for the rapid scanning and animate gif generation.<br><br>
 
@@ -55,7 +56,7 @@
 				<div class="caption">
 					<h2>Digital Ecologies</h2>
 					<h1>Mapping landscapes dynamically in space and time</h1>
-					<p><a id="go_button" href="http://metalab.harvard.edu/digital-ecologies/"><img src="img/projects/go.png"/><br><br></a> Digital Ecologies is a collaborative 
+					<p><a id="go_button" href="http://metalab.harvard.edu/digital-ecologies/"></a><br>Digital Ecologies is a collaborative 
 					initiative started in summer 2012 with Harvard’s Arnold Arboretum. At its core is a shared passion for exploring past, 
 					present and potential relationships between digital tools and human-environment interactions, particularly human-landscape and human-plant (human-woody plant) 
 					interactions. Supported by seed funding from the Provost’s Office and the Academic Technology Group, the initiative is plural and evolving, a hybrid of digital 
@@ -75,7 +76,7 @@
 				<div class="caption">
 					<h2>The Library Observatory</h2>
 					<h1>visualizations for open library information</h1>
-					<p><a id="go_button" href="http://metalab-library-observatory.herokuapp.com/"><img src="img/projects/go.png"/><br><br></a> 
+					<p><a id="go_button" href="http://metalab-library-observatory.herokuapp.com/"></a><br>
 					To explore Harvard’s newly-open library data—and ultimately, similar datasets with other institutions—we’re starting the Library Observatory to create and host a 
 					shared set of visualization tools for contemplating the full range of open library information. Initial funding to develop an open-source library graphics code 
 					base—the technical framework for the Observatory—will enable a sample set of highly usable, intuitive visualization tools tailored for library collections in all 					their technical, socio-cultural, and material dimensions. Crucially, we plan to express and develop these tools in an open forum for discussing, contextualizing, 
@@ -86,6 +87,8 @@
 				</div>
 			</div>
 			
+			
+			<!--
 			<div class="carousel_item">
 				<div class="image">
 					<img class="shadow" src="img/placeholder.jpg" alt="altnamehere"/>
@@ -96,6 +99,7 @@
 					<p>Yanni, give me a paragraph about the project</p>
 				</div>
 			</div>
+			-->
 			
 			<div class="carousel_item">
 				<div class="image">
@@ -104,7 +108,7 @@
 				<div class="caption">
 					<h2>CopyrightX</h2>
 					<h1>designing interactive online education</h1>
-					<p><a id="go_button" href="http://metalab-copyrightx.herokuapp.com/"><img src="img/projects/go.png"/><br><br></a> 
+					<p><a id="go_button" href="http://metalab-copyrightx.herokuapp.com/"></a><br>
 					
 					The Remix Playground is being developed as a potential platform for use in <a href="https://www.edx.org/courses/HarvardX/HLS1x/2013_Spring/about">CopyrightX</	
 					a>, the <a href="https://www.edx.org/">edX</a> course to be taught by <a href="http://tfisher.org/">Professor William Fisher III</a> in the context of Lawrence 					Lessig guest lecture on <a href="http://remix.lessig.org/">remix</a>.
@@ -112,6 +116,7 @@
 				</div>
 			</div>
 			
+			<!--Past Projects
 			<div class="carousel_item">
 				<div class="image">
 					<img class="shadow" src="img/placeholder.jpg" alt="altnamehere"/>
@@ -122,6 +127,7 @@
 					<p>Here will be a grid of links to past projects</p>
 				</div>
 			</div>
+			-->
 		</div>
 	</div>
 	

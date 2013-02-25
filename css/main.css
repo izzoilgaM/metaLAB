@@ -114,7 +114,7 @@ a:hover{
 
 #header {
 	z-index: 2002;
-	position: fixed;
+	position: absolute;
 	margin-top: 0px;
 	width:1022px;
 	padding: 0px 0px 0px 0px;}
@@ -158,7 +158,7 @@ a:hover{
 	-webkit-transition: all 200ms ease-out;
 	-ms-transition: all 200ms ease-out;
 	transition: all 200ms ease-out;} 
-
+	
 /*Active Page Javascript
 .tab-content{}
 
@@ -174,8 +174,8 @@ a:hover{
 	z-index: 3;
 	padding-top: 5px;
 	padding-bottom: 0px;
-	padding-left: 75px;
-	width: 145px;
+	padding-left: 105px;
+	width: 115px;
 	display:inline-block;
 	text-decoration: none;}
 	
@@ -183,6 +183,63 @@ a:hover{
 {
 	margin-left: 0px;
 }	
+
+#twitter{
+	display: inline-block;
+	width:29px;
+	height:24px;
+	background-image: url('../img/twitter_static.png');
+}
+
+#twitter:hover{
+	display: inline-block;
+	width:29px;
+	height:24px;
+	background-image: url('../img/twitter.png');
+}
+
+#facebook{
+	display: inline-block;
+	width:24px;
+	height:24px;
+	background-image: url('../img/f_logo_static.png');
+}
+
+#facebook:hover{
+	display: inline-block;
+	width:24px;
+	height:24px;
+	background-image: url('../img/f_logo.png');
+}
+
+#vimeo{
+	display: inline-block;
+	width:24px;
+	height:24px;
+	background-image: url('../img/vimeo_static.png');
+}
+
+#vimeo:hover{
+	display: inline-block;
+	width:24px;
+	height:24px;
+	background-image: url('../img/vimeo.png');
+}
+	
+#mail{
+	display: inline-block;
+	width:25px;
+	height:24px;
+	background-image: url('../img/mail_static.png');
+}
+
+#mail:hover{
+	display: inline-block;
+	width:25px;
+	height:24px;
+	background-image: url('../img/mail.png');
+}
+	
 	
 #content{
 	width:1020px;
@@ -314,7 +371,7 @@ a:hover{
 
 #footer {
 	z-index: 3;
-	position: fixed;
+	position: absolute;
 	margin: auto auto auto 66px;
 	width:940px;
 	padding: 0px 0px 0px 0px;

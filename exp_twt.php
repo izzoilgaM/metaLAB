@@ -37,33 +37,37 @@
 		</div>
 		<div class="span3">
 			<div class="project-thumb shadow">
+			<a href="exp_twt_sprite.php"> <img src="img/projects/twt/sprite.gif" alt="Navigable Sprite Sheet"/></a>
 			</div>
-			<div class="project-title">3D Annotation Interface</div>
+			<div class="project-title">Navigable Sprite Sheet</div>
 			
 		</div>
 		<div class="span3">
 			<div class="project-thumb shadow">
+			<a href="exp_twt_ostracon.php"> <img src="img/projects/twt/3d_ostracon.gif" alt="3D Object Inerface — Ostracon"/></a>
 			</div>
-			<div class="project-title">Fragments Timeline</div>
+		
+			<div class="project-title">3D Object Interface - Ostracon</div>
 		</div>
 	</div>
 	<div class="row span12" style="margin:30px 30px 30px 87px;">
 		<div class="span3">
 			<div class="project-thumb shadow">
+			<a href="exp_twt_moka.php"> <img src="img/projects/twt/moka.gif" alt="3D Object Inerface — Moka"/></a>
 			</div>
-			<div class="project-title">Social Network of Things</div>
+			<div class="project-title">3D Object Interface — Moka</div>
 		</div>
 		
 		<div class="span3">
 			<div class="project-thumb shadow">
 			</div>
-			<div class="project-title"></div>
+			<div class="project-title">Fragments Timeline</div>
 			
 		</div>
 		<div class="span3">
 			<div class="project-thumb shadow">
 			</div>
-			<div class="project-title"></div>
+			<div class="project-title">Social Network of Things</div>
 			
 		</div>
 	</div>	

@@ -45,7 +45,7 @@
 .nextItem{
 	position:absolute;
 	top:160px;
-	left:-60px;
+	right:-65px;
 	z-index:1001;
 	cursor:pointer;
 }
@@ -53,7 +53,7 @@
 .prevItem{
 	position: absolute;
 	top:160px;
-	right:-60px;
+	left:-60px;
 	z-index: 1002;
 	cursor:pointer;
 }
@@ -90,10 +90,21 @@
 }
 
 #go_button{
+	display: block;
 	margin-left:380px;
 	text-align: center;
+	width:  50px;
+	height: 50px;
+	background-image: url('../img/projects/gobutton.png');
 	}
 	
 #go_button:hover{
-	
+	display: block;
+	background-image: url('../img/projects/gobuttondown.png');
+	width: 50px;
+	height:50px;
+	-moz-transition: all 200ms ease-out;
+	-webkit-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }

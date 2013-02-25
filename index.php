@@ -35,11 +35,11 @@
 							</ul>	
 					</div>
 						<li class="span3" id= "social">
-							<a id ="twitter" href="https://twitter.com/metalabharvard"><img src="img/twitter_static.png"/></a>
-							<a href="https://www.facebook.com/metalabharvard"><img src="img/f_logo_static.png"/></a>
-							<a href="comingsoon"><img src="img/flickr_static.png"/>
-							<a href="http://vimeo.com/metalabharvard"><img src="img/vimeo_static.png"/></a>
-							<a href="comingsoon"><img src="img/mail_social.png"/></a>
+							<a id ="twitter" href="https://twitter.com/metalabharvard"></a>
+							<a id ="facebook" href="https://www.facebook.com/metalabharvard"></a>
+							<!-- <a id ="flickr" href="comingsoon"><img src="img/flickr_static.png"/> -->
+							<a id ="vimeo" href="http://vimeo.com/metalabharvard"></a>
+							<a id ="mail" href="comingsoon"></a>
 	
 						</li>
 					</div>

@@ -80,7 +80,8 @@
 }
 
 #go_button{
-	margin-left:380px;
+	margin-left:auto;
+	margin-right: auto;
 	text-align: center;
 	}
 	
@@ -111,4 +112,23 @@
 	font-family: Domine, serif;
 	color:white;
 	margin: 10px 20px -15px 20px;
+}
+
+#go_button{
+	display: block;
+	text-align: center;
+	width:  50px;
+	height: 50px;
+	background-image: url('../img/projects/gobutton.png');
+	}
+	
+#go_button:hover{
+	display: block;
+	background-image: url('../img/projects/gobuttondown.png');
+	width: 50px;
+	height:50px;
+	-moz-transition: all 200ms ease-out;
+	-webkit-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
 }
