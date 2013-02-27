@@ -137,8 +137,8 @@ a:hover{
 
 #nav{
 	z-index: 2001;
-	margin-top: -6px;
-	margin-left: -65px;
+	margin-top: 7px;
+	margin-left: -35px;
 	}
 	
 	ul li {
@@ -174,7 +174,7 @@ a:hover{
 	z-index: 3;
 	padding-top: 5px;
 	padding-bottom: 0px;
-	padding-right: 0px;
+	padding-left: 105px;
 	width: 115px;
 	display:inline-block;
 	text-decoration: none;}

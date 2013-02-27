@@ -6,7 +6,6 @@
 					</div>
 					<div id ="sub_header">
 						<div class="span7">
-							<ul>
 							<ul id="nav">
 								<li> <a href="people.php"> people </a> </li>
 								<li> <a href="projects.php"> projects </a> </li>
