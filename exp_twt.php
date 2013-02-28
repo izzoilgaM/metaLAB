@@ -60,12 +60,14 @@
 		
 		<div class="span3">
 			<div class="project-thumb shadow">
+			<a href="exp_twt_timeline.php"> <img src="img/projects/twt/timeline.gif" alt="Fragments Timeline"/></a>
 			</div>
 			<div class="project-title">Fragments Timeline</div>
 			
 		</div>
 		<div class="span3">
 			<div class="project-thumb shadow">
+			<a href="exp_twt_network.php"> <img src="img/projects/twt/network.gif" alt="Social Network of Things"/></a>
 			</div>
 			<div class="project-title">Social Network of Things</div>
 			
