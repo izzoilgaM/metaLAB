@@ -372,13 +372,21 @@ a:hover{
 #footer {
 	z-index: 3;
 	position: absolute;
-	margin: auto auto auto 66px;
+	margin: -21px 10px auto 66px;
 	width:940px;
 	padding: 0px 0px 0px 0px;
 	text-align: center;
 	background-image: url('../img/noisy_grid.png');
 	font-size: 10px;
 	}
+	
+#footer a{
+	color:#ff1e00;
+}
+
+#footer a:hover{
+	color:#666666;
+}
 	
 
 /*Custom Elements for People Page*/

@@ -49,42 +49,44 @@
 		
 			
 				<li class="panel">
-					<iframe class="shadow" src="http://player.vimeo.com/video/60356106?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1300" width="640" height="360" frameborder="0" 
+					<iframe class="shadow" src="http://player.vimeo.com/video/60721270?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1300" width="640" height="360" frameborder="0" 
 					webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</li>
-			
+				
+	
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka1.png" alt="moka 1"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline1.jpg" alt="timeline 1"/>
 				</li>
 			
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka2.png" alt="moka 2"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline2.jpg" alt="timeline 2"/>
 				</li>
 	
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka3.png" alt="moka 3"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline3.jpg" alt="timeline 3"/>
 				</li>
-		
+		<!--
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka4.png" alt="moka 4"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline4.jpg" alt="timeline 4"/>
 				</li>
 			
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka5.png" alt="moka 5"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline5.jpg" alt="timeline 5"/>
 				</li>
 		
 				<li class="panel">
-					<img class="shadow" src="img/projects/twt/3d/moka6.png" alt="moka 6"/>
+					<img class="shadow" src="img/projects/twt/timeline/timeline6.jpg" alt="timeline 6"/>
 				</li>
+				-->
 		
 			</ul>
 		
 	</div>
 	</div>
 		
-		<p class="experiment_description"> <!--<a id="go_button" href="http://hcl.harvard.edu/libraries/houghton/collections/pga/lear/"></a>--><br>[TEXT HERE]<br><br> <p id="show">Read More</p>
+		<p class="experiment_description"> <!--<a id="go_button" href="http://hcl.harvard.edu/libraries/houghton/collections/pga/lear/"></a>--><br><!--[TEXT HERE]<br><br> <p id="show">Read More</p>
 			<p id="more"> 
-			[MORE TEXT HERE]</p>
+			<!--[MORE TEXT HERE]--></p>
 			
 		</p>
 					

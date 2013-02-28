@@ -49,7 +49,7 @@
 		
 			
 				<li class="panel">
-					<iframe class="shadow" src="http://player.vimeo.com/video/60356106?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1300" width="640" height="360" frameborder="0" 
+					<iframe class="shadow" src="http://player.vimeo.com/video/60720409?title=0&amp;byline=0&amp;portrait=0&amp;color=ff1300" width="640" height="360" frameborder="0" 
 					webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 				</li>
 			
