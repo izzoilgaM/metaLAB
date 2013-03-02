@@ -284,6 +284,10 @@ a:hover{
 .innershadow{		
 -webkit-box-shadow: inset 0px 1px 100px 1px #000000;
     box-shadow:  inset 0px 1px 100px 1px #000000;}
+    
+.subtleinnershadow{		
+-webkit-box-shadow: inset 0px 1px 10px 1px #000000;
+    box-shadow:  inset 0px 1px 10px 1px #000000;}
 
 .shadow{		
 -webkit-box-shadow:  0px 1px 100px 1px #000000;
@@ -391,6 +395,65 @@ a:hover{
 
 /*Custom Elements for People Page*/
 
+.people_outer{
+	background-image: url('../img/noisy_grid.png');
+	position: relative;
+	width:940px;
+	height:285px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+
+.people_inner{
+	width:2500px;
+}
+
+
+.frame{
+	z-index:4000;
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width:200px;
+	height: auto;	
+}
+
+
+
+.frame2{
+	z-index:3000;
+	display: inline;
+	float: left;
+	margin-left:27.5px;
+	margin-top: -219.5px;
+}
+
+
+#people h2{
+	font-family: Domine;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin: 0px 0px 50px 60px;
+	padding: 10px 0px 0px 10px;
+	color: #ffffff;
+	border-left: 6px solid red; 
+}
+
+#people h1{
+	font-family: Domine;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 50px 0px 0px 60px;
+	padding: 10px 0px 0px 10px;
+	color: #ffffff;
+	border-left: 6px solid red; 
+}
+
+
+/*
+
 .bio_pic{
 	position: relative;
 	display: inline-block;
@@ -447,6 +510,8 @@ a:hover{
   font-style: normal;
   margin-top: 0;
 }
+
+*/
 
 /*Custom Elements for Project Page*/
 

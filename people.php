@@ -22,6 +22,108 @@
 
 <div class="projects innershadow">
 
+	<div class="row">
+	
+		<div class="span5" id="people">
+		
+		<h1> The Team </h1>
+		<h2> Take us for a scroll <--> </h2>
+		
+		</div>
+	
+	</div>
+
+	<div class="row">
+	
+		<div class="span12 people_outer subtleinnershadow">
+		
+			<div class="people_inner">
+		
+			
+				<div class="span3">
+			
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+					
+						<video class="frame2" autoplay loop>
+							<source src="./vid/mp_yanni.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+						</video>
+								
+				
+				</div>
+				<div class="span3">
+				
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+					
+						<video class="frame2" autoplay loop>
+							<source src="./vid/mp_alex.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+						</video>
+				
+				</div>
+				<div class="span3">
+			
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+					
+						<video class="frame2" autoplay loop>
+							<source src="./vid/mp_cris.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+						</video>
+				
+				
+				</div>
+				
+				<div class="span3">
+	
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+					
+						<video class="frame2" autoplay loop>
+							<source src="./vid/mp_matthew.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+						</video>
+					
+				</div>
+				
+				<div class="span3">
+		
+				<img class="frame" src="./img/people/frame.png" alt="frame"/>
+			
+				</div>
+				<div class="span3">
+				
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+				
+				</div>
+				<div class="span3">
+			
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+				
+				</div>
+				<div class="span3">
+	
+					<img class="frame" src="./img/people/frame.png" alt="frame"/>
+				</div>
+				
+			</div>
+
+		</div>
+
+</div>
+
+
+<!---
 
 	<div class="my_carousel">
 		<div class="carousel_container">
@@ -128,6 +230,8 @@
 			</div>
 		</div>
 	</div>
+	
+	-->
 	
 </div>
 
