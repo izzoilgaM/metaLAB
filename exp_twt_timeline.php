@@ -84,9 +84,10 @@
 	</div>
 	</div>
 		
-		<p class="experiment_description"> <!--<a id="go_button" href="http://hcl.harvard.edu/libraries/houghton/collections/pga/lear/"></a>--><br><!--[TEXT HERE]<br><br> <p id="show">Read More</p>
+		<p class="experiment_description"> <!--<a id="go_button" href="http://hcl.harvard.edu/libraries/houghton/collections/pga/lear/"></a>--><br>The Teaching with Things research initiative explores digital means of engaging with and annotating material collections at many scales. This prototype presents an interface at the scale of an individual object record, attended by a matrix of fragmentary representations and interpretations. <br><br> <p id="show">Read More</p>
 			<p id="more"> 
-			<!--[MORE TEXT HERE]--></p>
+			The sample object in this record is an ostracon, a Ancient Greek note scrawled on a shard of pottery. Ostraca were meant to be ephemeral communication media, however a number of examples have survived to the present day. Harvard has a small collection hosted in Houghton, the university's rare books library.
+The interface to this ostracon is divided in two. The left side is the curated portion, anchored by an animation of the ostracon in the round. Below the anchor, the record contains the kind of metadata currently available in the Harvard Library portal. At the bottom of the left panel, a number of curated videos are available. These dynamic representations show the object in detail, in movement, in performance, and in the process of measurement. On the right side of the divide is a timeline of external annotations arranged on a logarithmic scale. The log scale is an engineering device for representing data that privileges material closer to the beginning of the scale. These annotations from scholars and students going back more than a century are accessible through interactive trails. Some trails are adorned with images. Users can add new annotations, which then appear at the beginning of the timeline, and save them to a linked xml file. Annotations including images can also be added directly by xml. The prototype demonstrates the possibility of an object record composed of a diverse, fragmentary, mosaic of representations: in text, image, and video; traditional and interactive; curated and open. </p>
 			
 		</p>
 					
