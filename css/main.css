@@ -392,28 +392,197 @@ a:hover{
 	color:#666666;
 }
 	
+/*CMS Contents*/
+
+.posts{
+	
+	color: white;
+	font-family: Domine;
+	margin-left: 40px;
+	
+}
+
+.posts h2{
+	background-image: url('../img/noisy_grid.png');
+	padding: 20px;
+	width: 862px;
+}
 
 /*Custom Elements for People Page*/
 
 .people_outer{
 	background-image: url('../img/noisy_grid.png');
+	text-decoration: none;
+	display: inline-block;
 	position: relative;
 	width:940px;
-	height:285px;
-	overflow-y: hidden;
-	overflow-x: scroll;
+	height:100px;
+	margin-top: 20px;
+	border-bottom: 6px solid red;  
 }
 
-.people_inner{
-	width:2500px;
+.people_outer li{
+	width:940px;
+	height: 100px;
+	list-style-type: none;
+	text-align: center;
+}
+
+#Matthew{
+display: inline-block;
+background-image: url('../img/people/Matthew_s1.png');
+width: 106px;
+height: 100px;
+}
+
+#Matthewnow{
+display: inline-block;
+background-image: url('../img/people/Matthew_s2.png');
+width: 106px;
+height: 100px;
+}
+
+
+#Matthew:hover{
+display: inline-block;
+background-image: url('../img/people/Matthew_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Alex{
+display: inline-block;
+background-image: url('../img/people/Alex_s1.png');
+width: 106px;
+height: 100px;
+}
+
+#Alexnow{
+display: inline-block;
+background-image: url('../img/people/Alex_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Alex:hover{
+display: inline-block;
+background-image: url('../img/people/Alex_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Yanni{
+display: inline-block;
+background-image: url('../img/people/Yanni_s1.png');
+width: 106px;
+height: 100px;
+}
+
+#Yanninow{
+display: inline-block;
+background-image: url('../img/people/Yanni_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Yanni:hover{
+display: inline-block;
+background-image: url('../img/people/Yanni_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Cristoforo{
+display: inline-block;
+background-image: url('../img/people/Cris_s1.png');
+width: 106px;
+height: 100px;
+}
+
+#Cristoforonow{
+display: inline-block;
+background-image: url('../img/people/Cris_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Cristoforo:hover{
+display: inline-block;
+background-image: url('../img/people/Cris_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Kyle{
+display: inline-block;
+background-image: url('../img/people/Kyle_s1.png');	
+width: 106px;
+height: 100px;
+}
+
+#Kylenow{
+display: inline-block;
+background-image: url('../img/people/Kyle_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Kyle:hover{
+display: inline-block;
+background-image: url('../img/people/Kyle_s2.png');	
+width: 106px;
+height: 100px;
+}
+
+#Robert{
+display: inline-block;
+background-image: url('../img/people/Bobby_s1.png');	
+width: 106px;
+height: 100px;	
+}
+
+#Robertnow{
+display: inline-block;
+background-image: url('../img/people/Bobby_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Robert:hover{
+display: inline-block;
+background-image: url('../img/people/Bobby_s2.png');	
+width: 106px;
+height: 100px;	
+}
+
+
+#Jeffrey{
+display: inline-block;
+background-image: url('../img/people/Jeffrey_s1.png');	
+width: 106px;
+height: 100px;	
+}
+
+#Jeffreynow{
+display: inline-block;
+background-image: url('../img/people/Jeffrey_s2.png');
+width: 106px;
+height: 100px;
+}
+
+#Jeffrey:hover{
+display: inline-block;
+background-image: url('../img/people/Jeffrey_s2.png');	
+width: 106px;
+height: 100px;	
 }
 
 
 .frame{
 	z-index:4000;
 	display: inline;
-	float: left;
 	margin-top: 20px;
+	margin-left: 70px;
 	width:200px;
 	height: auto;	
 }
@@ -424,8 +593,9 @@ a:hover{
 	z-index:3000;
 	display: inline;
 	float: left;
-	margin-left:27.5px;
-	margin-top: -219.5px;
+	margin-left:98.5px;
+	margin-top: -217.6px;
+	margin-bottom: 30px;
 }
 
 
@@ -446,11 +616,45 @@ a:hover{
 	font-weight: normal;
 	text-transform: uppercase;
 	margin: 50px 0px 0px 60px;
-	padding: 10px 0px 0px 10px;
+	padding: 10px 0px 8px 10px;
 	color: #ffffff;
 	border-left: 6px solid red; 
 }
 
+
+#name h2{
+	font-family: Domine;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: lowercase;
+	padding: 10px 0px 0px 10px;
+	margin: 40px 0px 0px 60px;
+	color: #ffffff;
+	border-left: 6px solid red;  
+}
+
+
+#name h1{
+	float: left;
+	font-family: Domine;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 40px 0px 0px 60px;
+	padding: 5px 0px 5px 10px;
+	color: #ffffff;
+	border-left: 6px solid red;  
+}
+
+
+#bio{
+	color:white;
+	font-family: Domine;
+	margin-top: -260px;
+	margin-left: 320px;
+	margin-right: 30px;
+	text-align: justify;
+}
 
 /*
 

@@ -36,9 +36,48 @@
 					<a id="Yanni" href="Yanni.php"> </a> 
 					<a id="Cristoforo" href="Cristoforo.php">  </a>
 					<a id="Kyle" href="Kyle.php">  </a> 
-					<a id="Robert" href="Robert.php">  </a>
+					<a id="Robertnow" href="Robert.php">  </a>
 					<a id="Jeffrey" href="Jeffrey.php">  </a>
 				</li>	
+		</div>
+	</div>
+	
+	<div class="row">
+	
+		<div class ="span 4" id="name">
+							
+			<h1>Robert Pietrusko</h1>
+			<h2>Principal, Researcher<br>
+			<a href="mailto:rgp@metalab.harvard.edu">rgp [at] metalab.harvard.edu</a>
+			</h2>
+			
+		</div>
+		
+	</div>
+	
+	<div class="row">
+	
+	
+		<div class="span 4">
+	
+			<img class="frame shadow" src="./img/people/frame.jpg" alt="frame"/>
+					
+			<video class="frame2" autoplay loop>
+							<source src="./vid/mp_robert.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+			</video>
+			
+		</div>
+		
+		
+		<div class="span 8" id="bio">
+		
+		<p>Robert's bio needed.</p>
+
+		
 		</div>
 	</div>
 	

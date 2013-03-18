@@ -34,11 +34,51 @@
 					<a id="Matthew" href="Matthew.php">  </a> 
 					<a id="Alex" href="Alex.php"> </a> 
 					<a id="Yanni" href="Yanni.php"> </a> 
-					<a id="Cristoforo" href="Cristoforo.php">  </a>
+					<a id="Cristoforonow" href="Cristoforo.php">  </a>
 					<a id="Kyle" href="Kyle.php">  </a> 
 					<a id="Robert" href="Robert.php">  </a>
 					<a id="Jeffrey" href="Jeffrey.php">  </a>
 				</li>	
+		</div>
+	</div>
+	
+	<div class="row">
+	
+		<div class ="span 4" id="name">
+							
+			<h1>Cristoforo Magliozzi</h1>
+			<h2>Creative Technologist<br>
+			<a href="mailto:cris@metalab.harvard.edu">cris [at] metalab.harvard.edu</a>
+			</h2>
+			
+		</div>
+		
+	</div>
+	
+	<div class="row">
+	
+	
+		<div class="span 4">
+	
+			<img class="frame shadow" src="./img/people/frame.jpg" alt="frame"/>
+					
+			<video class="frame2" autoplay loop>
+							<source src="./vid/mp_cris.mp4" type="video/mp4"/>
+						<!--
+							<source src="vid/The_Guys.ogv" type="video/ogg"/>
+							<source src="vid/The_Guys.webm" type="video/webm"/>
+						-->
+			</video>
+			
+		</div>
+		
+		
+		<div class="span 8" id="bio">
+		
+		<p>After graduating from Harvard in 2011 with a degree in literature, Cris spent a year filmmaking, doing graphic design, and creating motion graphics in Ghana, 
+					Austin, for <a href="http://www.greatist.com">Greatist</a> in NYC, for The White House, and for Techstars Boston. Ever-seeking a place to combine his passions for 
+					technology and storytelling across various media forms, Cris found metaLAB at the nexus. When not working, Cris can be found doing Spartacus workouts, running long 					distances, rapping in Italian and expanding his culinary creative horizons.</p>
+		
 		</div>
 	</div>
 	

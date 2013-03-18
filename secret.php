@@ -1,0 +1,6 @@
+<?
+	require("common.php");
+	
+?>
+
+Secret!!!
