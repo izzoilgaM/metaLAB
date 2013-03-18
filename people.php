@@ -31,13 +31,13 @@
 	<div class="row">
 		<div class="span 12 people_outer">
 				<li>
-					<a id="Matthew" href="Matthew.php">  </a> 
-					<a id="Alex" href="Alex.php"> </a> 
-					<a id="Yanni" href="Yanni.php"> </a> 
-					<a id="Cristoforo" href="Cristoforo.php">  </a>
-					<a id="Kyle" href="Kyle.php">  </a> 
-					<a id="Robert" href="Robert.php">  </a>
-					<a id="Jeffrey" href="Jeffrey.php">  </a>
+					<a id="Matthew" href="matthew.php">  </a> 
+					<a id="Alex" href="alex.php"> </a> 
+					<a id="Yanni" href="yanni.php"> </a> 
+					<a id="Cristoforo" href="cristoforo.php">  </a>
+					<a id="Kyle" href="kyle.php">  </a> 
+					<a id="Robert" href="robert.php">  </a>
+					<a id="Jeffrey" href="jeffrey.php">  </a>
 				</li>	
 		</div>
 	</div>
