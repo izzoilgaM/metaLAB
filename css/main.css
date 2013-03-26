@@ -399,6 +399,8 @@ a:hover{
 	color: white;
 	font-family: Domine;
 	margin-left: 40px;
+	width: 900px;
+	text-align: justify;
 	
 }
 
@@ -406,6 +408,18 @@ a:hover{
 	background-image: url('../img/noisy_grid.png');
 	padding: 20px;
 	width: 862px;
+}
+
+.posts h3{
+	background-image: url('../img/noisy_grid.png');
+	padding: 10px;
+	width: 150px;
+	color: #666;
+	text-align: center;
+}
+
+.posts iframe{
+	text-align: center;
 }
 
 /*Custom Elements for People Page*/

@@ -11,7 +11,7 @@
 								<li> <a href="projects.php"> projects </a> </li>
 								<li> <a href="community.php"> community </a> </li>
 								<li> <a href="contact.php"> contact </a> </li>
-								<li> <a href="blog.php"> blog </a> </li>
+								<li> <a href="press.php"> press </a> </li>
 							</ul>	
 					</div>
 						<li class="span3" id= "social">
