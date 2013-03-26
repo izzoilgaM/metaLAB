@@ -22,6 +22,15 @@
 
 <html>
 	<head>	
+	
+		<script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js"></script>
+	
+		<script type="text/javascript"> 
+		
+		bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+		
+		</script>
+	
 	</head>
 	<body>
 		<h1>Edit a post</h1>
@@ -29,7 +38,7 @@
 		<form action="edit_post_handle.php" method="post">
 			<? print('<input type="hidden" name="pid" value="' . $pid . '" />'); ?>
 			<? print('<input type="text" name="title" value="' . $row["title"] . '" />'); ?><br>
-			<? print('<textarea rows="6" cols="30" name="content">' . $row["content"] . '</textarea>'); ?><br>
+			<? print('<textarea rows="25" cols="100" name="content">' . $row["content"] . '</textarea>'); ?><br>
 			<? print('<input type="text" name="tstamp" placeholder="2013-03-01 17:50:29" value="' . $row["tstamp"] . '" />'); ?><br>
 			<? print('<input type="text" name="tags" placeholder="Tag me, tag me too" value="' . $tags . '" />'); ?><br>
 			<input type="submit" value="Update post" />
