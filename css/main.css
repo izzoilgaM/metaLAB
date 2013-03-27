@@ -447,6 +447,10 @@ display: inline-block;
 background-image: url('../img/people/Matthew_s1.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Matthewnow{
@@ -454,6 +458,10 @@ display: inline-block;
 background-image: url('../img/people/Matthew_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 
@@ -469,6 +477,10 @@ display: inline-block;
 background-image: url('../img/people/Alex_s1.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Alexnow{
@@ -476,6 +488,10 @@ display: inline-block;
 background-image: url('../img/people/Alex_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Alex:hover{
@@ -490,6 +506,10 @@ display: inline-block;
 background-image: url('../img/people/Yanni_s1.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Yanninow{
@@ -497,6 +517,10 @@ display: inline-block;
 background-image: url('../img/people/Yanni_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Yanni:hover{
@@ -511,6 +535,10 @@ display: inline-block;
 background-image: url('../img/people/Cris_s1.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Cristoforonow{
@@ -518,6 +546,10 @@ display: inline-block;
 background-image: url('../img/people/Cris_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Cristoforo:hover{
@@ -532,6 +564,10 @@ display: inline-block;
 background-image: url('../img/people/Kyle_s1.png');	
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Kylenow{
@@ -539,6 +575,10 @@ display: inline-block;
 background-image: url('../img/people/Kyle_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Kyle:hover{
@@ -553,6 +593,10 @@ display: inline-block;
 background-image: url('../img/people/Bobby_s1.png');	
 width: 106px;
 height: 100px;	
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Robertnow{
@@ -560,6 +604,10 @@ display: inline-block;
 background-image: url('../img/people/Bobby_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Robert:hover{
@@ -575,6 +623,10 @@ display: inline-block;
 background-image: url('../img/people/Jeffrey_s1.png');	
 width: 106px;
 height: 100px;	
+-moz-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
 
 #Jeffreynow{
@@ -582,6 +634,10 @@ display: inline-block;
 background-image: url('../img/people/Jeffrey_s2.png');
 width: 106px;
 height: 100px;
+-moz-transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	transition: all 1s ease-in;
 }
 
 #Jeffrey:hover{

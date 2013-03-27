@@ -8,8 +8,10 @@
 	$sql = sprintf("SELECT * FROM users WHERE email='%s'", $email);
 	$result = mysql_query($sql);
 	
-	if(mysql_num_rows($result) == 1)
-	{
+	
+	if(!$result || mysql_num_rows($result) < 1){ redirect("error.php"); } 
+	
+	else {
 		$row = mysql_fetch_array($result);
 		$hash = $row["password"];
 		
